@@ -1,0 +1,17 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DESIGNER";"VERSION";
+"1";"";"CONN_022.54MM_SCREWTERM";"1X02_2.54_SCREWTERM";"J3";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";
+"2";"1 uF";"C-USC0603";"C0603";"C7, C8";"CAPACITOR, American symbol";"";"";
+"1";"1.5 k";"R-US_R0603";"R0603";"R1";"RESISTOR, American symbol";"";"";
+"2";"10 k";"R-US_R0603";"R0603";"R2, R3";"RESISTOR, American symbol";"";"";
+"1";"10 nF";"C-USC0603";"C0603";"C5";"CAPACITOR, American symbol";"";"";
+"1";"100 k";"R-US_R0603";"R0603";"R4";"RESISTOR, American symbol";"";"";
+"1";"100 nF";"C-USC0603";"C0603";"C1";"CAPACITOR, American symbol";"";"";
+"1";"100 pF";"C-USC0603";"C0603";"C3";"CAPACITOR, American symbol";"";"";
+"3";"4.7 uF";"C-USC0603";"C0603";"C2, C4, C6";"CAPACITOR, American symbol";"";"";
+"1";"FRAME-LETTERNO_PACKAGE";"FRAME-LETTERNO_PACKAGE";"DUMMY";"FRAME1";"Schematic Frame - Letter";"Nobody";"v01";
+"1";"LMV793MF";"LMV793MF";"SOT23-5";"U1";"Texas Instruments";"";"";
+"1";"MIC5365-3.3YD5";"MIC5365-X.XXYD5";"SOT23-5";"U2";"";"";"";
+"1";"SJ-2524-SMT";"SJ-2524-SMT";"SJ-2524-SMT";"J1";"";"";"";
+"1";"SPU0410LR5H-QB";"SPU0410LR5H-QB";"SPU0410LR5H-QB";"MK1";"Knowles";"";"";
+"1";"TEST_PAD-0.4X0.1";"TEST_PAD-0.4X0.1";"TESTPAD_10.16X2.54";"TP";"";"";"";
+"1";"USBSMD";"USBSMD";"USB-MINIB";"J2";"USB Connectors";"";"";
