@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -160,8 +160,52 @@
 <wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
 <wire x1="-0.2684" y1="0.7088" x2="0.2684" y2="0.7088" width="0.2032" layer="21"/>
 <circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
-<text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<text x="-2" y="0" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3" y="0" size="1.27" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="SPU0410LR5H-QB">
+<hole x="0" y="0" drill="0.7"/>
+<smd name="P6" x="0" y="0" dx="1.224" dy="1.224" layer="1" roundness="100"/>
+<smd name="P2" x="-1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
+<smd name="P3" x="1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
+<smd name="P5" x="0" y="2.103" dx="0.612" dy="0.612" layer="1" roundness="100"/>
+<smd name="P1" x="-0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
+<smd name="P4" x="0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
+<wire x1="-1.5" y1="2.636" x2="1.5" y2="2.636" width="0.254" layer="21"/>
+<wire x1="1.5" y1="2.636" x2="1.5" y2="-1.124" width="0.254" layer="21"/>
+<wire x1="1.5" y1="-1.124" x2="-1.5" y2="-1.124" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="-1.124" x2="-1.5" y2="2.636" width="0.254" layer="21"/>
+<circle x="2.25" y="2.25" radius="0.2" width="0.4" layer="21"/>
+<text x="-2" y="-1" size="1.27" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="4" y="-1" size="1.27" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<wire x1="-1.6" y1="2.736" x2="1.6" y2="2.736" width="0.127" layer="41"/>
+<wire x1="1.6" y1="2.736" x2="1.6" y2="-1.224" width="0.127" layer="41"/>
+<wire x1="1.6" y1="-1.224" x2="-1.6" y2="-1.224" width="0.127" layer="41"/>
+<wire x1="-1.6" y1="-1.224" x2="-1.6" y2="2.736" width="0.127" layer="41"/>
+</package>
+<package name="SJ-2524-SMT">
+<hole x="3" y="0" drill="1.07"/>
+<hole x="9" y="0" drill="1.07"/>
+<smd name="3" x="4.4" y="3.275" dx="2.4" dy="2.95" layer="1"/>
+<smd name="4" x="11.4" y="3.425" dx="2.4" dy="2.65" layer="1"/>
+<smd name="2" x="11.4" y="-3.425" dx="2.4" dy="2.65" layer="1"/>
+<smd name="1" x="1.7" y="-3.275" dx="2.4" dy="2.95" layer="1"/>
+<wire x1="0" y1="2.5" x2="12" y2="2.5" width="0.127" layer="21"/>
+<wire x1="12" y1="2.5" x2="12" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="12" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0" y2="-2" width="0.127" layer="21"/>
+<wire x1="0" y1="-2" x2="0" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="0" y2="-2" width="0.127" layer="21"/>
+<rectangle x1="-2" y1="-5" x2="0" y2="5" layer="49"/>
+<text x="3" y="-5" size="1.27" layer="21" font="vector" ratio="20">1</text>
+<text x="14" y="0" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="16" y="0" size="1.27" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="TESTPAD_10.16X2.54">
+<smd name="P$1" x="0" y="0" dx="10.16" dy="2.54" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -189,6 +233,55 @@
 <text x="5.08" y="-5.08" size="1.778" layer="95" font="vector" rot="R90">&gt;VALUE</text>
 <text x="0.127" y="-4.699" size="1.27" layer="94" font="vector" align="bottom-center">VEE</text>
 <text x="0.127" y="3.429" size="1.27" layer="94" font="vector" align="bottom-center">VCC</text>
+</symbol>
+<symbol name="VREG_W_EN">
+<pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="EN" x="-12.7" y="-2.54" length="middle" direction="in"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="MEMS_MIC">
+<pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-12.7" y="0" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="GND@4" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
+<pin name="OUT" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="HEADPHONE_TRS_W_CONNECT">
+<pin name="SLEEVE" x="7.62" y="2.54" length="point" rot="R180"/>
+<pin name="RING" x="7.62" y="0" length="point" rot="R180"/>
+<pin name="TIP_SW" x="7.62" y="-2.54" length="point" rot="R180"/>
+<pin name="TIP" x="7.62" y="-5.08" length="point" rot="R180"/>
+<wire x1="7.62" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-4.445" x2="4.445" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-4.445" x2="3.175" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<rectangle x1="-5.715" y1="-5.08" x2="-4.445" y2="-2.54" layer="94"/>
+</symbol>
+<symbol name="TEST_PAD">
+<rectangle x1="-7.62" y1="-2.54" x2="0" y2="2.54" layer="94"/>
+<pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -260,6 +353,79 @@ Rail-to-rail input/output, 20 MHz GBP, operational amplifiers</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$2" pin="P$V+" pad="5"/>
 <connect gate="G$2" pin="P$V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5365">
+<gates>
+<gate name="G$1" symbol="VREG_W_EN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-X.XXYD5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPU0410">
+<description>&lt;b&gt;Knowles&lt;/b&gt;
+Zero-Height SiSonic Microphone</description>
+<gates>
+<gate name="G$1" symbol="MEMS_MIC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LR5H-QB" package="SPU0410LR5H-QB">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="P2"/>
+<connect gate="G$1" pin="GND@2" pad="P3"/>
+<connect gate="G$1" pin="GND@3" pad="P5"/>
+<connect gate="G$1" pin="GND@4" pad="P6"/>
+<connect gate="G$1" pin="OUT" pad="P1"/>
+<connect gate="G$1" pin="VDD" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ-2524-SMT">
+<gates>
+<gate name="G$1" symbol="HEADPHONE_TRS_W_CONNECT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ-2524-SMT">
+<connects>
+<connect gate="G$1" pin="RING" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
+<connect gate="G$1" pin="TIP_SW" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_PAD">
+<gates>
+<gate name="G$1" symbol="TEST_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0.4X0.1" package="TESTPAD_10.16X2.54">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

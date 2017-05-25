@@ -252,12 +252,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="SPU0410LR5H-QB">
 <hole x="0" y="0" drill="0.7"/>
-<smd name="6" x="0" y="0" dx="1.224" dy="1.224" layer="1" roundness="100"/>
-<smd name="3" x="-1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
-<smd name="2" x="1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
-<smd name="5" x="0" y="2.103" dx="0.612" dy="0.612" layer="1" roundness="100"/>
-<smd name="4" x="-0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
-<smd name="1" x="0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
+<smd name="P6" x="0" y="0" dx="1.224" dy="1.224" layer="1" roundness="100"/>
+<smd name="P2" x="-1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
+<smd name="P3" x="1.015" y="-0.634" dx="0.562" dy="0.562" layer="1" roundness="100"/>
+<smd name="P5" x="0" y="2.103" dx="0.612" dy="0.612" layer="1" roundness="100"/>
+<smd name="P1" x="-0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
+<smd name="P4" x="0.966" y="2.103" dx="0.723" dy="0.723" layer="1" roundness="100"/>
 <wire x1="-1.5" y1="2.636" x2="1.5" y2="2.636" width="0.254" layer="21"/>
 <wire x1="1.5" y1="2.636" x2="1.5" y2="-1.124" width="0.254" layer="21"/>
 <wire x1="1.5" y1="-1.124" x2="-1.5" y2="-1.124" width="0.254" layer="21"/>
@@ -404,12 +404,12 @@ Zero-Height SiSonic Microphone</description>
 <devices>
 <device name="LR5H-QB" package="SPU0410LR5H-QB">
 <connects>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="3"/>
-<connect gate="G$1" pin="GND@3" pad="5"/>
-<connect gate="G$1" pin="GND@4" pad="6"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="P2"/>
+<connect gate="G$1" pin="GND@2" pad="P3"/>
+<connect gate="G$1" pin="GND@3" pad="P5"/>
+<connect gate="G$1" pin="GND@4" pad="P6"/>
+<connect gate="G$1" pin="OUT" pad="P1"/>
+<connect gate="G$1" pin="VDD" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
